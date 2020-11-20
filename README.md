@@ -1,46 +1,35 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Speaking Line Demo:
 
-## Available Scripts
+Hello, 
+For this demo project I have made some effort to give a general view about my skills and compentencies in building single we apps using ReactJS, So, I would like to mention that I didn't get enough time to make the app 100% responsive and looks good on all screen sizes, and also I didn't get enough time to implement some sort of complex animation using React Spring and I have just make a simple and awesome animation just to showcase my skills in using react springs and making animations in ReactJS.
+And yeah this is a breaf introduction about what I have built so far:
 
-In the project directory, you can run:
+## Technologies Used:
 
-### `npm start`
+* ReactJS: For Building The General UI
+* Redux: For Managing The State Of The App
+* React Srping: For Handling Animation
+* Bootstrap: For Designing The UI (Along With Regular CSS)
+* Font Awesome: For Icons And Vectors
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## UI Structor:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The Eğitmenler are composed into 5 React Components each Component represents a specific section inside the web page like so:
+* The NavBar Component represents the navigation bar inside the app 
+* The SearchBar Component represents the second section in the very top of the web page, which contain a search input
+* The StatusBar Component represents the section which take care of displaying the instructors based on the status clicked
+* The Instructors Component represents the section in which the instructors are showed based on the current clicked status, and each instructor card is represented with a Instructor Component which takes care of displaying the information of the instructor
+* And finally the Footer Component Which is a simple designed Footer shows in the very bottom of the web page
 
-### `npm test`
+## Redux State:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Currently the redux state only have one single reducer which is the instructorReducer which takes care of manipulating the instructors data and also provide the app with the needed information
 
-### `npm run build`
+## Controling the Animation:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+inside the Eğitmenler Component there is a React Hook which is [startAnimation, setStartAnimation] and also a function called loadAnimation, this function takes care of starting the animation whenever the state changed, and it's important to mention that there is another good approach of doing it (using the Redux subscribe) but I feel that this approach is more efficient for our simple usecase
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Conclusion:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is the final result of my work for this demo project I hope that it won your admiration :), and thank you so much for giving me this opportunity
