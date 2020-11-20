@@ -1,0 +1,22 @@
+
+/* The Search Bar Section */
+
+.search-bar {
+    background-color: #F86F53 !important;
+    border-radius: 0 !important;
+    height: 150px !important;
+}
+.search-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.search-icon {
+    background-color: #fff !important;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.search-bar-input {
+    border: 1px solid #fff !important;
+}

@@ -1,0 +1,53 @@
+
+/* The Status Bar Section */
+
+.status-bar {
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    background-color: #FAFAFA;
+    margin-top: -35px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.status {
+    background-color:#F2F2F2 !important;
+    border: 0;
+    width: 180px;
+    height: 45px;
+    border-radius: 100px;
+    margin-right: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.status-color {
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+    transform: translateY(3px);
+    margin-left: -10px;
+    margin-right: 8px;
+}
+.statue-icon {
+    margin-left: -10px;
+    margin-right: 8px;
+}
+.active-statue {
+    background-color: #929598 !important;
+    color: #fff !important;
+}
+.statue-number {
+    background-color: #FDD9D1 !important;
+    color: #F86F53 !important;
+    margin-left: 8px;
+}
+.alert-link {
+    color: #52575C !important;
+}
+.active-statue .alert-link {
+    color: #fff !important;
+}
+.alert-link:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,109 @@
+
+/* Instructors Section */
+
+.instructors {
+    min-height: calc(100vh - (80px + 150px + 130px));
+    background-color: #FAFAFA;
+    padding-bottom: 150px;
+}
+.card-thumb {
+    height: 100px;
+    width: 115px;
+    border-radius: 24px;
+}
+.active {
+    background-color: #00D21D;
+}
+.bussy {
+    background-color: #EE3F46;
+}
+.unavailable {
+    background-color: #AAAAAA;
+}
+.instructor-card {
+    border-radius: 15px;
+    border: 0;
+    margin-bottom: 20px;
+    height: 300px !important;
+}
+.card-status {
+    margin-top: -24px;
+    font-weight: 600;
+    text-shadow: 3px 5px 5px rgba(0,0,0,0.3),
+                    0px -5px 10px rgba(255,255,255,0.15);
+}
+.active-status {
+    color: #00ff22;
+}
+.bussy-status {
+    color: #ff0008;
+}
+.unavailable-status {
+    color: #ddd !important;
+}
+.image-shadow {
+    height: 70px;
+    width: 115px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 47.02%, rgba(0, 0, 0, 0.7) 100%);
+    filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.08));
+    border-radius: 24px;
+    margin-top: -70px;
+}
+.card-time {
+    margin-top: 20px;
+    line-height: 20px;
+}
+.card-details {
+    text-align: left;
+    padding-top: 2px;
+}
+.card-content {
+    height: 85% !important;
+}
+.card-flag {
+    transform: translateY(-3px);
+}
+.rating-text {
+    margin-left: -35px;
+    transform: translateY(1px)
+}
+.rating-container {
+    margin-top: -10px;
+}
+
+.practice-btn {
+    background-color: #F86F53;
+    border: 0px;
+}
+.practice-btn:hover {
+    background-color: #e94e2f;
+}
+.practice-btn:focus {
+    background-color: #e94e2f;
+}
+.btn-comp {
+    padding: 8px 20px;
+}
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+.muted-btn {
+    background-color: #ddd;
+    border: 0;
+    color: #52575C;
+}
+.muted-btn:hover {
+    background-color: rgb(202, 202, 202);
+    color: #52575C;
+}
+
+/*  4K Screens  */
+
+@media only screen and (min-width: 1800px) {
+    .instructors {
+        min-height: calc(100vh - (80px + 150px + 130px + 170px));
+    }
+}

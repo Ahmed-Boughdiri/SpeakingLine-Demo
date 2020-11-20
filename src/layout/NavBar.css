@@ -1,0 +1,16 @@
+
+/* Nav Bar Component */
+
+.nav-bar {
+    background-color: #F86F53 !important;
+}
+.nav-link {
+    color: #fff !important;
+}
+.nav-bar-brand {
+    transform: translateY(-5px);
+}
+.nav-bar-icons {
+    transform: translateY(-5px);
+    display: flex;
+}
