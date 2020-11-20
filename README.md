@@ -13,7 +13,7 @@ And yeah this is a breaf introduction about what I have built so far:
 * Bootstrap: For Designing The UI (Along With Regular CSS)
 * Font Awesome: For Icons And Vectors
 
-## UI Structor:
+## UI Structure:
 
 The Eğitmenler are composed into 5 React Components each Component represents a specific section inside the web page like so:
 * The NavBar Component represents the navigation bar inside the app 
